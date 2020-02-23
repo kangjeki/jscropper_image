@@ -13,27 +13,29 @@ Simple JS croper pan zoom
 
 simple crop and spesific target element preview
 
-		let crop = new JsCropper(this);
+		let crop = new JsCropper(input);
 			crop.targetPreview = [ Element | Target Preview ];
 			crop.init();
 
 
 <b>all</b>
 
-		var.cropperWidth = 300;
-		var.cropperHeight = 200;
-		var.fixedMode = false;
-		var.convertScale = 1;
-		var.parentElement = [ Element | Cover Cropper selector ];
-		var.targetPreview = [ Element | Target Preview ];
-		var.base64out = true;
-		var.base64target = [ Element | target output base64 ];
-		var.defaultButton = false;
+		let crop = new JsCropper(input);
+
+			crop.cropperWidth = 300;
+			crop.cropperHeight = 200;
+			crop.fixedMode = false;
+			crop.convertScale = 1;
+			crop.parentElement = [ Element | Cover Cropper selector ];
+			crop.targetPreview = [ Element | Target Preview ];
+			crop.base64out = true;
+			crop.base64target = [ Element | target output base64 ];
+			crop.defaultButton = false;
 
 exec manual
 
-		var.exec; [ object ]
+			crop.exec; [ object ]
 
-		var.exec.crop(); [ function ]
-		var.exec.cancle(); [ function ]
+			crop.exec.crop(); [ function ]
+			crop.exec.cancle(); [ function ]
 
