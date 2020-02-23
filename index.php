@@ -52,7 +52,7 @@ if ( isset($_POST["upload"]) ) {
 		<button name="upload">Upload</button>
 	</form>
 </div>
-<script src="js/jc_mobileCroper.js"></script>
+<script src="js/jscropper.js"></script>
 
 </body>
 </html>
